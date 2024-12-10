@@ -18,7 +18,7 @@ else {
 cout << "You've entered not int number." << endl;
 cin.clear();
 cin.ignore(numeric_limits<streamsize>::max(), '\n');
-}  
+}
 } while (i <= k);
 cout << " The total sum of " << k << " integers is: " << sum_k;
 return 0;
